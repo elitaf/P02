@@ -1,0 +1,222 @@
+body {
+	margin: 1rem;
+}
+
+.logo {
+	margin-bottom: 1rem;
+	position: relative;
+	left: 45%;
+}
+
+.main {
+	margin-left: 15rem;
+	margin-top: 5rem;
+}
+
+p, h3 { 
+	font-family: OpenSans-Light, sans-serif; 
+	max-width: 50rem;
+}
+
+.para {
+	margin-top: -1rem;
+}
+
+.para2, .para3 {
+	font-size: 1.5rem;
+	font-family: LeckerliOne-Regular; 
+}
+
+.fontuse {
+	margin-top: 0rem;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-bottom: 0;
+}
+
+h2 { 
+	font-family: OpenSans-Semibold, sans-serif; 
+}
+
+.header2 {
+	font-family: OpenSans-Semibold, sans-serif; 
+	margin-bottom: -2rem;
+}
+
+h3 { 
+	font-family: OpenSans-Light, sans-serif; 
+}
+
+h4 {
+	font-size: 2rem;
+	font-family: LeckerliOne-Regular;
+	margin-bottom: 0rem;
+}
+
+element.style {
+	clear: both;
+}
+
+section {
+	display: block;
+}
+
+.sec2 {
+	display: block;
+	margin-bottom: 5rem;
+}
+
+.numbers { 
+	display:block;
+	color: lightgray; 
+	font-family: OpenSans-Light, sans-serif; 
+}
+
+.numbers2 { 
+	display:block;
+	color: lightgray; 
+	font-family: OpenSans-Light, sans-serif; 
+	margin-top: 30px;
+}
+
+.numbers3 { 
+	display:block;
+	color: lightgray; 
+	font-family: OpenSans-Light, sans-serif; 
+	margin-top: 30px;
+}
+
+.sub { 
+	font-size: 20px;
+	color: black; 
+	font-family: OpenSans-Light, sans-serif; 
+}
+
+.frames {
+	max-width: 100%;
+}
+
+.nav-main-item {
+	display: inline-block;
+	color: white;
+	background-color: #ACC7B3;
+	font-size: 1.2rem;
+	text-align: center;
+	padding: 0.25rem 0.5rem;
+	text-decoration: none;
+	transition: background-color 0.5s ease-out;
+}
+
+.bg1 {
+	background-color: #ACC7B3;
+}
+
+.bg2 {
+	background-color: #ACC7B3;
+}
+
+.codebox {
+	background-color: lightgray;
+	max-width: 100%;
+	padding: 0.23em 0.75em;
+	margin-top: -1rem;
+	font-size:1.2rem;
+}
+
+.nav-main-item:active, .nav-main-item:hover, .nav-main-item:focus {
+	color: white;
+	background-color: rgb(50,50,50);
+}
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #5F5A59;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #F48274;
+}
+
+.in-textlink{
+	color: blue;
+	text-decoration: none;
+}
+
+.in-textlink:hover {
+	text-decoration: underline;
+}
+
+.button-submit, .button-reset {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #5F5A59;
+  border-radius: 0.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+.button-submit:hover, .button-submit:focus, 
+.button-reset:hover, .button-reset:focus {
+	background-color: #F48274;
+}
+
+.input-field{
+}
+
+.h1-head {
+	font-size: 2rem;
+	font-family: LeckerliOne-Regular;
+	color: #ACC7B3;
+}
+
+.h2-head {
+	font-size: 1.5rem;
+	font-family: OpenSans-Semibold, sans-serif;
+	color: #ACC7B3;
+}
+
+.h3-head {
+	font-size: 1rem;
+	font-family: OpenSans-Semibold, sans-serif;
+	color: #ACC7B3;
+}
+
+.p-body, .bullet-list, .number-list {
+	font-family: OpenSans-Light, sans-serif;
+}
+
+ul.main-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Main Navigation Section */
+ul.main-nav li {float: left;}
+
+ul.main-nav li a {
+    display: inline-block;
+    color: #F48274;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.main-nav li a:hover {background-color: #FAC0AC;}
+ul.main-nav li.icon {display: none;}
+

@@ -1,0 +1,11 @@
+html {
+
+	font-family: LeckerliOne-Regular; 
+	src: url('LeckerliOne-Regular.ttf'); 
+
+	font-family: OpenSans-Light; 
+	src: url('OpenSans-Light.ttf');
+
+	font-family: OpenSans-Semibold; 
+	src: url('OpenSans-Semibold.ttf');
+}
